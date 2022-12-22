@@ -1,0 +1,123 @@
+	h2,
+    h3,
+	h5,
+    h4,
+    h6 {
+		color: aliceblue;
+        font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0
+		
+    }
+
+.header {
+	color: aliceblue;
+	width: 1000;
+	margin: 20px auto;
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: burlywood;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+  }
+  
+  li a:hover {
+	background-color: #ff3333;
+  }
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+
+.badan{
+	background: rgb(15, 15, 15);
+	color: #ccc;
+	float: left;	
+	width: 90%;
+	height: 100%;
+}
+
+.post-body h3{background:#fff;box-shadow:0 1px 6px rgba(32,33,36,.28);line-height:2em;border-radius:5px;color:#43ce8e;border-bottom:2px solid #43ce8e;font-family:'Google Sans',Tahoma,Sans-serif;text-transform:uppercase;font-weight:400;font-size:14px;margin:5px 0;padding:8px 15px}
+.xabout{color:#07ACEC!important;border-bottom:3px solid #07ACEC!important}
+ul.keahlian{padding:0}
+.keahlian div{list-style:none;;margin-bottom:10px;font-size:12px;border-radius:20px;color:#fff;background:#EAEAEA}
+.keahlian li{padding:5px 20px;border-radius:20px}
+.albenhtml{background:#0091ea;width:90%}
+.albencss{background:#009624;width:80%}
+.albenjs{background:#ef6c00;width:50%}
+
+
+.content{
+	color: aliceblue;
+	text-align: center;
+	height: 100%;
+	width: 75%;	
+}
+ 
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+	color: #ccc;
+}
